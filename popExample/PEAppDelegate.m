@@ -8,12 +8,19 @@
 
 #import "PEAppDelegate.h"
 
+#import "PEMainViewController.h"
+
 @implementation PEAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    PEMainViewController *mainController = [[PEMainViewController alloc] init];
+    
+    self.window.rootViewController = mainController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05387AC3E4274AB09C6F5A61 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CB0026F48843B6A5F39B64 /* libPods.a */; };
 		CDB6DEC8191D41D700D1729B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB6DEC7191D41D700D1729B /* Foundation.framework */; };
 		CDB6DECA191D41D700D1729B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB6DEC9191D41D700D1729B /* CoreGraphics.framework */; };
 		CDB6DECC191D41D700D1729B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB6DECB191D41D700D1729B /* UIKit.framework */; };
@@ -19,6 +20,8 @@
 		CDB6DEE3191D41D700D1729B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB6DECB191D41D700D1729B /* UIKit.framework */; };
 		CDB6DEEB191D41D700D1729B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDB6DEE9191D41D700D1729B /* InfoPlist.strings */; };
 		CDB6DEED191D41D700D1729B /* popExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6DEEC191D41D700D1729B /* popExampleTests.m */; };
+		CDB6DEF9191D470C00D1729B /* PEMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6DEF7191D470C00D1729B /* PEMainViewController.m */; };
+		CDB6DEFA191D470C00D1729B /* PEMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDB6DEF8191D470C00D1729B /* PEMainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17CB0026F48843B6A5F39B64 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14663D9D88C4362B94964E0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		CDB6DEC4191D41D700D1729B /* popExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB6DEC7191D41D700D1729B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CDB6DEC9191D41D700D1729B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +53,9 @@
 		CDB6DEE8191D41D700D1729B /* popExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "popExampleTests-Info.plist"; sourceTree = "<group>"; };
 		CDB6DEEA191D41D700D1729B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CDB6DEEC191D41D700D1729B /* popExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popExampleTests.m; sourceTree = "<group>"; };
+		CDB6DEF6191D470C00D1729B /* PEMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEMainViewController.h; sourceTree = "<group>"; };
+		CDB6DEF7191D470C00D1729B /* PEMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEMainViewController.m; sourceTree = "<group>"; };
+		CDB6DEF8191D470C00D1729B /* PEMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PEMainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 				CDB6DECA191D41D700D1729B /* CoreGraphics.framework in Frameworks */,
 				CDB6DECC191D41D700D1729B /* UIKit.framework in Frameworks */,
 				CDB6DEC8191D41D700D1729B /* Foundation.framework in Frameworks */,
+				05387AC3E4274AB09C6F5A61 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,7 @@
 				CDB6DEE6191D41D700D1729B /* popExampleTests */,
 				CDB6DEC6191D41D700D1729B /* Frameworks */,
 				CDB6DEC5191D41D700D1729B /* Products */,
+				A14663D9D88C4362B94964E0 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +110,7 @@
 				CDB6DEC9191D41D700D1729B /* CoreGraphics.framework */,
 				CDB6DECB191D41D700D1729B /* UIKit.framework */,
 				CDB6DEE0191D41D700D1729B /* XCTest.framework */,
+				17CB0026F48843B6A5F39B64 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,6 +120,9 @@
 			children = (
 				CDB6DED6191D41D700D1729B /* PEAppDelegate.h */,
 				CDB6DED7191D41D700D1729B /* PEAppDelegate.m */,
+				CDB6DEF6191D470C00D1729B /* PEMainViewController.h */,
+				CDB6DEF7191D470C00D1729B /* PEMainViewController.m */,
+				CDB6DEF8191D470C00D1729B /* PEMainViewController.xib */,
 				CDB6DED9191D41D700D1729B /* Images.xcassets */,
 				CDB6DECE191D41D700D1729B /* Supporting Files */,
 			);
@@ -151,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDB6DEF0191D41D700D1729B /* Build configuration list for PBXNativeTarget "popExample" */;
 			buildPhases = (
+				ADB459FA65084E299AE0E0CF /* Check Pods Manifest.lock */,
 				CDB6DEC0191D41D700D1729B /* Sources */,
 				CDB6DEC1191D41D700D1729B /* Frameworks */,
 				CDB6DEC2191D41D700D1729B /* Resources */,
+				89364251548B427B878DC5DB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDB6DEFA191D470C00D1729B /* PEMainViewController.xib in Resources */,
 				CDB6DED2191D41D700D1729B /* InfoPlist.strings in Resources */,
 				CDB6DEDA191D41D700D1729B /* Images.xcassets in Resources */,
 			);
@@ -235,6 +252,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		89364251548B427B878DC5DB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADB459FA65084E299AE0E0CF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CDB6DEC0191D41D700D1729B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -242,6 +292,7 @@
 			files = (
 				CDB6DED4191D41D700D1729B /* main.m in Sources */,
 				CDB6DED8191D41D700D1729B /* PEAppDelegate.m in Sources */,
+				CDB6DEF9191D470C00D1729B /* PEMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +406,7 @@
 		};
 		CDB6DEF1191D41D700D1729B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A14663D9D88C4362B94964E0 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -362,12 +414,14 @@
 				GCC_PREFIX_HEADER = "popExample/popExample-Prefix.pch";
 				INFOPLIST_FILE = "popExample/popExample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		CDB6DEF2191D41D700D1729B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A14663D9D88C4362B94964E0 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -375,6 +429,7 @@
 				GCC_PREFIX_HEADER = "popExample/popExample-Prefix.pch";
 				INFOPLIST_FILE = "popExample/popExample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -438,6 +493,7 @@
 				CDB6DEF2191D41D700D1729B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDB6DEF3191D41D700D1729B /* Build configuration list for PBXNativeTarget "popExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +502,7 @@
 				CDB6DEF5191D41D700D1729B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
